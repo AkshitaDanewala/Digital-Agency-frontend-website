@@ -1,0 +1,503 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.pg1 {
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://www.shutterstock.com/image-photo/digital-online-marketing-businessman-using-600nw-1792952278.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav {
+    height: 10vh;
+    width: 100%;
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vmax;
+}
+
+.logo {
+    height: 9vh;
+    width: 20vw;
+    /* border: 2px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo>img {
+    height: 9vh;
+    width: 5vw
+}
+
+.logo>h1 {
+    font-family: "Metal Mania";
+    font-size: 3vmax;
+    color: white;
+    letter-spacing: 0.5vmax;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3vmax;
+    list-style: none;
+    margin: 0 1vmax;
+    color: white;
+    font-weight: bold;
+}
+
+nav>button {
+    padding: 0.6vmax 1.2vmax;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3vmax;
+    border: none;
+    outline: none;
+    background-color: yellowgreen;
+    border-radius: 0.3vmax;
+    font-weight: bold;
+}
+
+.pg1-content {
+    height: 90vh;
+    width: 100%;
+    /* border: 2px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.pg1-content>.content {
+    height: 50vh;
+    width: 50vw;
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2vmax;
+
+}
+
+.content>h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5vmax;
+    color: white;
+}
+
+.content>h1 span {
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellowgreen;
+    font-size: 4vmax;
+
+}
+
+.content>p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3vmax;
+    color: white;
+    margin-top: 1vmax;
+}
+
+.content>button {
+    padding: 0.6vmax 1.2vmax;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3vmax;
+    border: none;
+    outline: none;
+    background-color: yellowgreen;
+    border-radius: 0.3vmax;
+    font-weight: bold;
+    margin-top: 1.2vmax;
+}
+
+/* --------------------------------pg1 end-------------------------------- */
+
+.pg2 {
+    height: 100vh;
+    width: 100%;
+    /* background: linear-gradient(black, rgb(1, 53, 1), black); */
+    /* background: linear-gradient(to top right, black, rgb(1, 53, 1), black); */
+    /* background-color: rgb(5, 12, 20); */
+    background-color: rgb(3,5,7);
+
+    display: flex;
+}
+
+.pg2-left {
+    height: 100vh;
+    width: 50%;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2vmax;
+}
+
+.pg2-left>h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vmax;
+    color: yellowgreen;
+}
+
+.pg2-left>p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3vmax;
+    margin-top: 1vmax;
+    color: rgb(229, 226, 226);
+    text-align: center;
+
+}
+
+.pg2-left>img {
+    height: 40vh;
+    width: 37vw;
+}
+
+.pg2-left>h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vmax;
+    margin-top: 1vmax;
+    color: yellowgreen;
+
+}
+
+.pg2-left>.mission {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3vmax;
+    color: rgb(229, 226, 226);
+}
+
+.pg2-right {
+    height: 100vh;
+    width: 50%;
+    /* background-color: cyan; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pg2-right-img {
+    height: 65vh;
+    width: 37vw;
+    border-radius: 50vmax;
+    /* border: 2px solid black; */
+    animation: rotate 1 linear infinite;
+    background-image: url("https://img.freepik.com/premium-vector/digital-marketing-background_127544-410.jpg");
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIFeZ4m_08ZbuKTim0sqWLs6x7ejw-Bcammw&usqp=CAU"); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ----------------------------pg2 end------------------------------------- */
+
+.pg3 {
+    height: 100vh;
+    width: 100%;
+    /* background-color: rgb(5, 12, 20); */
+    /* padding-top: 1vmax; */
+    background-color: rgb(3,5,7);
+
+    border-top: 2px solid rgb(1, 1, 17);
+}
+
+.pg3-head {
+    height: 13vh;
+    width: 100%;
+    /* border: 2px solid white; */
+}
+
+.pg3-head>h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vmax;
+    color: white;
+    text-align: center;
+    margin-top: 1vmax;
+}
+
+.pg3-services {
+    height: 85vh;
+    width: 100%;
+    /* border: 2px solid white; */
+    padding: 0.7vmax 1vmax;
+    margin-top: 1.2vmax;
+
+}
+
+.pg3-services>.box {
+    height: 38vh;
+    width: 20vw;
+    /* border: 2px solid white; */
+    display: inline-block;
+    margin: 0.7vmax 1vmax;
+    padding: 1vmax 0;
+    box-shadow: 0 0 7px grey;
+    border-radius: 0.4vmax;
+
+}
+
+.box>img {
+    height: 11vh;
+    width: 5vw;
+    border-radius: 5vmax;
+
+}
+
+.box>h3 {
+    font-size: 1.3vmax;
+    color: red;
+    margin-top: 0.5vmax;
+}
+
+.box>p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1vmax;
+    margin-top: 0.7vmax;
+
+}
+
+/* ------------------------------pg3 end--------------------------------------- */
+
+
+.pg4 {
+    height: 90vh;
+    width: 100%;
+    /* background: linear-gradient(to top right, black, rgb(1, 53, 1), black); */
+    /* background-color: rgb(5, 12, 20); */
+    background-color: rgb(3,5,7);
+
+    border-top: 1px solid rgb(1, 32, 1);
+}
+
+.pg4-head {
+    height: 14vh;
+    width: 100%;
+    /* border: 2px solid white; */
+    text-align: center;
+    margin-top: 4vmax;
+}
+
+.pg4-head span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vmax;
+    color: yellowgreen;
+    
+}
+
+.pg4-head>h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vmax;
+    color: white;
+}
+
+.experts {
+    height: 60vh;
+    width: 100%;
+    /* border: 2px solid white; */
+    margin-top: 2vmax;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vmax;
+}
+
+.experts>.square {
+    height: 41vh;
+    width: 22vw;
+    /* border: 2px solid white; */
+    box-shadow: 0 0 7px grey;
+    border-radius: 1vmax;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 1vmax 1vmax;
+    position: relative;
+    margin-top: -3vmax;
+}
+
+.square>p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2vmax;
+    margin-bottom: 1vmax;
+}
+
+.square>h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7vmax;
+    color: yellowgreen;
+    margin-top: -0.4vmax;
+}
+
+.square>h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2vmax;
+    color: red;
+}
+
+.dp {
+    height: 10vh;
+    width: 4.8vw;
+    border-radius: 5vmax;
+    /* border: 2px solid white; */
+    position: absolute;
+    top: 87%;
+    left: 8%;
+    /* transform: translate(1vmax ,2.7vmax); */
+    z-index: 999;
+}
+
+.dp1 {
+    background-image: url("https://images.unsplash.com/photo-1633332755192-727a05c4013d?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEzfHx8ZW58MHx8fHx8");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.dp2 {
+    background-image: url("https://images.unsplash.com/photo-1566753323558-f4e0952af115?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.dp3 {
+    background-image: url("https://images.unsplash.com/photo-1568602471122-7832951cc4c5?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHBpY3MlMjBvZiUyMG1hbnxlbnwwfHwwfHx8MA%3D%3D");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.dp4 {
+    background-image: url("https://images.unsplash.com/photo-1540569014015-19a7be504e3a?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEyfHx8ZW58MHx8fHx8");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* --------------------------------pg4 end--------------------------------- */
+
+.pg5{
+    height: 20vh;
+    width: 100%;
+    /* background-color: rgb(5, 12, 20); */
+    background-color: rgb(3,5,7);
+
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+.location, .email, .call{
+    height: 10vh;
+    width: 28vw;
+    /* border: 2px solid white; */
+    display: flex;
+    color: white;
+    padding: 0.5vmax 0;
+}
+
+.location >h4, .email >h4, .call >h4{
+    font-size: 3vmax;
+    color: coral;
+}
+.content >h5{
+    font-size: 1vmax;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1vmax;
+    margin-top: 0.5vmax;
+}
+
+.content >h6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2vmax;
+    color: coral;
+    margin-left: 1vmax;
+    margin-top: 0.5vmax;
+
+}
+/* ----------------------------------pg5 end-------------------------------- */
+
+footer{
+    height: 50vh;
+    width: 100%;
+    /* background: linear-gradient(to top right, black, rgb(1, 53, 1), black); */
+    /* background-color: rgb(5, 12, 20); */
+    background-color: rgb(3,5,7);
+
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1vmax;
+  
+}
+footer >h1 u{
+    font-size: 1.5vmax;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.connections{
+    height: 10vh;
+    width: 20vw;
+/* border: 2px solid white; */
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+.circle{
+    height: 7vh;
+    width: 4vw;
+/* border: 2px solid white; */
+border-radius: 5vmax;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 2.5vmax;
+color: white;
+}
+
+footer >p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2vmax;
+    text-align: center;
+}
+.copyright{
+    height: 10vh;
+    width: 100%;
+    color: rgb(191, 190, 190);
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0 2vmax;
+}
+.copyright >h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3vmax;
+}
+
+.copyright >h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3vmax;
+}
